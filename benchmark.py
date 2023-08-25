@@ -112,7 +112,7 @@ if __name__ == '__main__':
             'dog', 'frog', 'horse', 'ship', 'truck')
 
     # Model
-    print('==> Building model..')
+    print('==> Building model...')
 
     net = ResNet18()
     net = net.to(device)
